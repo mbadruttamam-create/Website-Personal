@@ -21,6 +21,7 @@
     document.querySelectorAll(".opt-lang").forEach(function (b) {
       b.classList.toggle("active", b.getAttribute("data-lang") === lang);
     });
+    document.querySelectorAll(".lang-code").forEach(function (n) { n.textContent = lang.toUpperCase(); });
     try { localStorage.setItem("mbt-lang", lang); } catch (e) {}
   }
 
@@ -85,22 +86,39 @@
     }
 
     var langBtn = e.target.closest(".opt-lang");
-    if (langBtn) { applyLang(langBtn.getAttribute("data-lang")); return; }
-
-    var settingsBtn = e.target.closest("#settingsBtn");
-    var panel = document.getElementById("settingsPanel");
-    if (settingsBtn) {
-      if (panel) panel.classList.toggle("open");
+    if (langBtn) {
+      applyLang(langBtn.getAttribute("data-lang"));
+      var pn = document.getElementById("settingsPanel");
+      if (pn) pn.classList.remove("open");
       return;
     }
-    if (panel && panel.classList.contains("open") && !e.target.closest("#settingsPanel")) {
-      panel.classList.remove("open");
+
+    var panel = document.getElementById("settingsPanel");
+    var navLinks = document.getElementById("navLinks");
+    var burger = document.getElementById("burgerBtn");
+
+    function setMenu(open) {
+      if (!navLinks) return;
+      navLinks.classList.toggle("open", open);
+      if (burger) {
+        burger.textContent = open ? "✕" : "☰";
+        burger.setAttribute("aria-expanded", open ? "true" : "false");
+      }
     }
 
-    var burgerBtn = e.target.closest("#burgerBtn");
-    var navLinks = document.getElementById("navLinks");
-    if (burgerBtn && navLinks) {
-      navLinks.classList.toggle("open");
+    if (e.target.closest("#settingsBtn")) {
+      if (panel) panel.classList.toggle("open");
+      setMenu(false);
+      return;
+    }
+    if (e.target.closest("#burgerBtn")) {
+      setMenu(!(navLinks && navLinks.classList.contains("open")));
+      if (panel) panel.classList.remove("open");
+      return;
+    }
+    if (panel && !e.target.closest("#settingsPanel")) panel.classList.remove("open");
+    if (navLinks && navLinks.classList.contains("open") && (e.target.closest("#navLinks a") || !e.target.closest(".nav"))) {
+      setMenu(false);
     }
   });
 
