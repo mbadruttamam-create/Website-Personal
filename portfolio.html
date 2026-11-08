@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Karya — Mohammad Badrut Tamam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<div class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">M. BADRUT <span>TAMAM</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-i18n="nav.home">Beranda</a></li>
+      <li><a href="about.html" data-i18n="nav.about">Tentang</a></li>
+      <li><a href="services.html" data-i18n="nav.services">Keahlian</a></li>
+      <li><a href="experience.html" data-i18n="nav.experience">Pengalaman</a></li>
+      <li><a href="portfolio.html" class="active" data-i18n="nav.portfolio">Portofolio</a></li>
+      <li><a href="education.html" data-i18n="nav.education">Edukasi</a></li>
+      <li><a href="contact.html" data-i18n="nav.contact">Kontak</a></li>
+    </ul>
+    <div class="nav-right">
+      <a class="nav-cta" href="files/CV-Mohammad-Badrut-Tamam.pdf" download data-i18n="nav.downloadcv">Unduh CV</a>
+      <div class="settings-wrap">
+        <button class="settings-btn" id="settingsBtn" aria-label="Pengaturan tampilan dan bahasa">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="settings-panel" id="settingsPanel">
+          <div class="settings-row">
+            <span class="settings-label" data-i18n="settings.lang">Bahasa</span>
+            <div class="settings-options">
+              <button class="opt-btn opt-lang" data-lang="id">ID</button>
+              <button class="opt-btn opt-lang" data-lang="en">EN</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="nav-burger" id="burgerBtn" aria-label="Buka menu">☰</button>
+    </div>
+  </div>
+</div>
+
+<header class="subhero">
+  <div class="container subhero-inner">
+    <div class="breadcrumb"><a href="index.html" data-i18n="nav.home">Beranda</a> / <span data-i18n="nav.portfolio">Portofolio</span></div>
+    <h1 data-i18n="portfolio.h1">Portofolio Karya</h1>
+    <p data-i18n="portfolio.sub">Kumpulan proyek dan penugasan yang pernah saya kerjakan lintas disiplin engineering.</p>
+  </div>
+</header>
+
+<section class="portfolio">
+  <div class="container">
+
+    <!-- ===== COMPANY 1 ===== -->
+    <div class="company-block reveal">
+      <div class="company-head">
+        <img src="images/logo_aldzama.png" alt="Logo PT Aldzama" class="company-logo wide zoomable">
+        <span class="company-num">01</span>
+        <span class="company-name" data-i18n="company5.name">PT Aldzama</span>
+        <span class="company-role" data-i18n="company5.role">Drafter Mechanical &amp; Project</span>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job8.title">Drafter Project</span></div>
+        <p class="cat-note" data-i18n="job8.note">Survei lokasi, membuat shop drawing, General Arrangement (GA), layout, workshop/fabrication drawing, serta drawing piping (isometric) lengkap dengan BoM.</p>
+        <div class="sub-head" data-i18n="job8.sub1">Project Copper Chips Workshop</div>
+        <div class="case-grid">
+          <div class="case"><img src="images/aldzama_project_channel_layout.jpg" alt="Gambar kerja channel dan frame layout workshop PT Freeport Indonesia" class="zoomable"><div class="case-overlay"><b data-i18n="case8.1.b">Channel &amp; Frame Layout</b><span data-i18n="case8.1.s">Workshop PT Freeport Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_project_foundation.jpg" alt="Gambar kerja foundation plan workshop PT Freeport Indonesia" class="zoomable"><div class="case-overlay"><b data-i18n="case8.2.b">Foundation Plan</b><span data-i18n="case8.2.s">Workshop PT Freeport Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_project_plafond.jpg" alt="Gambar kerja layout plafond plan workshop PT Freeport Indonesia" class="zoomable"><div class="case-overlay"><b data-i18n="case8.3.b">Layout Plafond Plan</b><span data-i18n="case8.3.s">Workshop PT Freeport Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_anim3d_1.jpg" alt="Animasi 3D workshop PT Freeport Indonesia scene 1" class="zoomable"><div class="case-overlay"><b data-i18n="case8.4.b">Animasi 3D</b><span data-i18n="case8.4.s">Workshop PT Freeport Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_anim3d_2.jpg" alt="Animasi 3D workshop PT Freeport Indonesia scene 2" class="zoomable"><div class="case-overlay"><b data-i18n="case8.5.b">Animasi 3D</b><span data-i18n="case8.5.s">Workshop PT Freeport Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_anim3d_3.jpg" alt="Animasi 3D workshop PT Freeport Indonesia scene 3" class="zoomable"><div class="case-overlay"><b data-i18n="case8.6.b">Animasi 3D</b><span data-i18n="case8.6.s">Workshop PT Freeport Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_cc_1.jpg" alt="Foto monitoring erection struktur baja workshop Copper Chips di lapangan" class="zoomable" style="object-position:50% 45%"><div class="case-overlay"><b data-i18n="case8.7.b">Monitoring Erection Baja</b><span data-i18n="case8.fld.s">Dokumentasi Lapangan</span></div></div>
+          <div class="case"><img src="images/aldzama_cc_2.jpg" alt="Foto pemasangan atap workshop Copper Chips menggunakan crane" class="zoomable" style="object-position:50% 55%"><div class="case-overlay"><b data-i18n="case8.8.b">Pemasangan Atap</b><span data-i18n="case8.fld.s">Dokumentasi Lapangan</span></div></div>
+          <div class="case"><img src="images/aldzama_cc_3.jpg" alt="Foto bersama tim lapangan PT Aldzama di proyek Copper Chips" class="zoomable" style="object-position:50% 40%"><div class="case-overlay"><b data-i18n="case8.9.b">Tim Lapangan</b><span data-i18n="case8.fld.s">Dokumentasi Lapangan</span></div></div>
+          <div class="case"><img src="images/aldzama_cc_4.jpg" alt="Foto pemasangan wall panel dan scaffolding workshop Copper Chips" class="zoomable" style="object-position:50% 60%"><div class="case-overlay"><b data-i18n="case8.10.b">Pemasangan Wall Panel</b><span data-i18n="case8.fld.s">Dokumentasi Lapangan</span></div></div>
+        </div>
+
+        <div class="sub-head" data-i18n="job14.title">Handling H2SO4 Piping — PT SJR</div>
+        <p class="sub-note" data-i18n="job14.note">Perencanaan jalur piping handling H2SO4 dari acid tank PT SJR: isometric, 3D view, detail drain, BOM, dan desain pipe support (Type 1, 2, 3).</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/aldzama_h2so4_isometric.jpg" alt="Gambar isometric handling H2SO4 PT SJR dengan bill of materials" class="zoomable"><div class="case-overlay"><b data-i18n="case14.1.b">Isometric &amp; BOM</b><span data-i18n="case14.1.s">Handling H2SO4 PT SJR</span></div></div>
+          <div class="case"><img src="images/aldzama_h2so4_3dview.jpg" alt="3D view piping H2SO4 PT SJR" class="zoomable"><div class="case-overlay"><b data-i18n="case14.2.b">3D View Piping</b><span data-i18n="case14.2.s">Handling H2SO4 PT SJR</span></div></div>
+          <div class="case"><img src="images/aldzama_h2so4_support.jpg" alt="Detail pipe support type 1, 2, dan 3 untuk piping H2SO4" class="zoomable"><div class="case-overlay"><b data-i18n="case14.3.b">Detail Pipe Support</b><span data-i18n="case14.3.s">Type 1, 2 &amp; 3</span></div></div>
+          <div class="case"><img src="images/aldzama_h2so4_autocad3d.jpg" alt="Model 3D piping H2SO4 di AutoCAD dengan IBC tank" class="zoomable"><div class="case-overlay"><b data-i18n="case14.4.b">Model 3D AutoCAD</b><span data-i18n="case14.4.s">Piping &amp; IBC Tank</span></div></div>
+        </div>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job9.title">Drafter Mechanical</span></div>
+        <p class="cat-note" data-i18n="job9.note">Membuat gambar fabrikasi, assembly, detail part, dan instalasi; menyiapkan BOM serta as-built drawing.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/aldzama_mech_cylinder_gas.jpg" alt="Gambar teknik support cilinder gas" class="zoomable"><div class="case-overlay"><b data-i18n="case9.1.b">Support Cilinder Gas</b><span data-i18n="case9.1.s">PT Aldzama</span></div></div>
+          <div class="case"><img src="images/aldzama_mech_barrier.jpg" alt="Gambar teknik barrier 1 meter" class="zoomable"><div class="case-overlay"><b data-i18n="case9.2.b">Barrier 1M</b><span data-i18n="case9.2.s">PT Aldzama</span></div></div>
+          <div class="case"><img src="images/aldzama_mech_anchor.jpg" alt="Gambar teknik anchor SUS304 type YS" class="zoomable"><div class="case-overlay"><b data-i18n="case9.3.b">Anchor SUS304 Type YS</b><span data-i18n="case9.3.s">PT Borneo Alumina Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_mech_steel_storage.jpg" alt="Gambar teknik steel cloth storage" class="zoomable"><div class="case-overlay"><b data-i18n="case9.4.b">Steel Cloth Storage</b><span data-i18n="case9.4.s">PT Freeport Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_mech_burner.jpg" alt="Gambar teknik detail burner dan piping" class="zoomable"><div class="case-overlay"><b data-i18n="case9.5.b">Detail Burner &amp; Piping</b><span data-i18n="case9.5.s">PT Freeport Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_mech_pipe_rack.jpg" alt="Gambar teknik heavy duty pipe rack" class="zoomable"><div class="case-overlay"><b data-i18n="case9.6.b">Heavy Duty Pipe Rack</b><span data-i18n="case9.6.s">PT Freeport Indonesia</span></div></div>
+          <div class="case"><img src="images/aldzama_cad3d_piperack.jpg" alt="Visual 3D CAD heavy duty pipe rack" class="zoomable"><div class="case-overlay"><b data-i18n="case9.7.b">3D Visual CAD</b><span data-i18n="case9.7.s">Heavy Duty Pipe Rack</span></div></div>
+          <div class="case"><img src="images/aldzama_cad3d_steelrack.jpg" alt="Visual 3D CAD steel cloth storage" class="zoomable"><div class="case-overlay"><b data-i18n="case9.8.b">3D Visual CAD</b><span data-i18n="case9.8.s">Steel Cloth Storage</span></div></div>
+          <div class="case"><img src="images/aldzama_cad3d_tabung.jpg" alt="Visual 3D CAD support cilinder gas" class="zoomable"><div class="case-overlay"><b data-i18n="case9.9.b">3D Visual CAD</b><span data-i18n="case9.9.s">Support Cilinder Gas</span></div></div>
+          <div class="case"><img src="images/aldzama_mech_pump_cylinder.jpg" alt="Model 3D cylinder block pompa hidrolik Brokk 110 dibandingkan dengan part asli" class="zoomable"><div class="case-overlay"><b data-i18n="case9.10.b">Model 3D Part Pompa Hidrolik</b><span data-i18n="case9.10.s">Cylinder Block — Brokk 110</span></div></div>
+          <div class="case"><img src="images/aldzama_mech_pump_piston.jpg" alt="Model 3D piston pompa hidrolik Brokk 110 dibandingkan dengan part asli" class="zoomable"><div class="case-overlay"><b data-i18n="case9.11.b">Model 3D Part Pompa Hidrolik</b><span data-i18n="case9.11.s">Piston — Brokk 110</span></div></div>
+          <div class="case"><img src="images/aldzama_refractory_pouring_spout.jpg" alt="Drawing pouring spout AF 2 untuk project refractory PT Freeport Indonesia" class="zoomable"><div class="case-overlay"><b data-i18n="case9.12.b">Pouring Spout AF 2</b><span data-i18n="case9.12.s">Refractory — PT Freeport Indonesia</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== COMPANY 2 ===== -->
+    <div class="company-block reveal">
+      <div class="company-head">
+        <img src="images/logo_dwidaya.png" alt="Logo CV Dwidaya Persada" class="company-logo zoomable">
+        <span class="company-num">02</span>
+        <span class="company-name" data-i18n="company4.name">CV Dwidaya Persada</span>
+        <span class="company-role" data-i18n="company4.role">Drafter Engineer &amp; Maintenance</span>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job5.title">Layout &amp; Detail Cable Ladder</span></div>
+        <p class="cat-note" data-i18n="job5.note">Perencanaan layout jalur cable ladder dan detail support (SP) lengkap dengan BOM untuk kebutuhan proyek plant.</p>
+        <div class="sub-head" data-i18n="job5.sub1">Layout Cable Ladder</div>
+        <div class="case-grid">
+          <div class="case"><img src="images/dwidaya_layout_sodium.jpg" alt="Layout Cable Ladder dari tray existing Sodium, Pilot Plant 2KL" class="zoomable"><div class="case-overlay"><b data-i18n="case5.22.b">Tray dari Existing Sodium</b><span data-i18n="case5.22.s">Pilot Plant 2KL</span></div></div>
+          <div class="case"><img src="images/dwidaya_layout_mpp.jpg" alt="Layout instalasi cable tray ke Plant MPP, Pilot Plant 2KL" class="zoomable"><div class="case-overlay"><b data-i18n="case5.23.b">Layout Tray ke Plant MPP</b><span data-i18n="case5.23.s">Pilot Plant 2KL</span></div></div>
+          <div class="case"><img src="images/dwidaya_layout_flaker.jpg" alt="General cable routing layout Oleo Multipurpose Flaker" class="zoomable"><div class="case-overlay"><b data-i18n="case5.24.b">General Cable Routing</b><span data-i18n="case5.24.s">Oleo Multipurpose Flaker</span></div></div>
+          <div class="case"><img src="images/dwidaya_layout_cctv.jpg" alt="Layout CCTV dan open close cable ladder Amido Amines" class="zoomable"><div class="case-overlay"><b data-i18n="case5.25.b">Layout CCTV &amp; Cable Ladder</b><span data-i18n="case5.25.s">Amido Amines</span></div></div>
+        </div>
+
+        <div class="sub-head" data-i18n="job5.sub2">Detail Support Cable Ladder</div>
+        <div class="case-grid">
+          <div class="case"><img src="images/dwidaya_support_sp1_4.jpg" alt="Detail support cable ladder type SP-1 sampai SP-4 dengan BOM" class="zoomable"><div class="case-overlay"><b data-i18n="case5.26.b">Detail Support SP-1 s/d SP-4</b><span data-i18n="case5.26.s">Cable Ladder</span></div></div>
+          <div class="case"><img src="images/dwidaya_support_t5_6.jpg" alt="Detail support cable ladder type 5 dan type 6" class="zoomable"><div class="case-overlay"><b data-i18n="case5.27.b">Detail Support Type 5 &amp; 6</b><span data-i18n="case5.27.s">Cable Ladder</span></div></div>
+          <div class="case"><img src="images/dwidaya_sketch_cabletray.jpg" alt="Sketsa jalur cable tray MPP di atas foto lapangan" class="zoomable"><div class="case-overlay"><b data-i18n="case5.28.b">Sketsa Cable Tray MPP</b><span data-i18n="case5.28.s">Overlay Foto Lapangan</span></div></div>
+          <div class="case"><img src="images/dwidaya_support_sp11_13.jpg" alt="Detail support cable ladder type SP-11, SP-12, dan SP-13" class="zoomable"><div class="case-overlay"><b data-i18n="case5.29.b">Detail Support SP-11 s/d SP-13</b><span data-i18n="case5.29.s">Cable Ladder</span></div></div>
+        </div>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job12.title">3D Animasi Fasad Office Utility</span></div>
+        <p class="cat-note" data-i18n="job12.note">Pembuatan visualisasi 3D fasad bangunan Utility Department menggunakan Enscape untuk kebutuhan presentasi desain.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/dwidaya_3d_facade1.jpg" alt="Render 3D fasad Utility Department tampak umum" class="zoomable"><div class="case-overlay"><b data-i18n="case5.13.b">Tampak Umum</b><span data-i18n="case5.13.s">Fasad Utility Dept.</span></div></div>
+          <div class="case"><img src="images/dwidaya_3d_facade2.jpg" alt="Render 3D fasad Utility Department close up detail" class="zoomable"><div class="case-overlay"><b data-i18n="case5.14.b">Detail Fasad</b><span data-i18n="case5.14.s">Close Up</span></div></div>
+          <div class="case"><img src="images/dwidaya_3d_facade3.jpg" alt="Render 3D fasad Utility Department suasana sore hari" class="zoomable"><div class="case-overlay"><b data-i18n="case5.15.b">Suasana Sore Hari</b><span data-i18n="case5.15.s">Fasad Utility Dept.</span></div></div>
+        </div>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job13.title">Workshop EI (Electrical &amp; Instrument)</span></div>
+        <p class="cat-note" data-i18n="job13.note">Pemodelan 3D dan gambar kerja workshop EI, termasuk layout, tampak, dan potongan bangunan.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/dwidaya_workshop_ei_3d.jpg" alt="Model 3D isometrik workshop EI" class="zoomable"><div class="case-overlay"><b data-i18n="case5.18.b">Model 3D Isometrik</b><span data-i18n="case5.18.s">Workshop EI</span></div></div>
+          <div class="case"><img src="images/dwidaya_workshop_ei_floorplan.jpg" alt="Denah layout workshop EI" class="zoomable"><div class="case-overlay"><b data-i18n="case5.19.b">Denah Layout</b><span data-i18n="case5.19.s">Workshop EI</span></div></div>
+          <div class="case"><img src="images/dwidaya_workshop_ei_front.jpg" alt="Tampak depan workshop EI dengan hoist crane" class="zoomable"><div class="case-overlay"><b data-i18n="case5.20.b">Tampak Depan</b><span data-i18n="case5.20.s">Workshop EI</span></div></div>
+          <div class="case"><img src="images/dwidaya_workshop_ei_side.jpg" alt="Tampak samping workshop EI dengan hoist crane" class="zoomable"><div class="case-overlay"><b data-i18n="case5.21.b">Tampak Samping</b><span data-i18n="case5.21.s">Workshop EI</span></div></div>
+        </div>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job11.title">Layout &amp; Detail Support CCTV Installation</span></div>
+        <p class="cat-note" data-i18n="job11.note">Perencanaan layout jalur kabel CCTV, wiring diagram, hingga detail support tiang kamera untuk kebutuhan instalasi keamanan area proyek.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/cctv_layout_sitemap.jpg" alt="Layout site plan jalur kabel CCTV area proyek" class="zoomable"><div class="case-overlay"><b data-i18n="case5.9.b">Layout Jalur Kabel CCTV</b><span data-i18n="case5.9.s">Site Plan</span></div></div>
+          <div class="case"><img src="images/cctv_wiring_diagram.jpg" alt="Wiring diagram sistem CCTV dan NVR" class="zoomable"><div class="case-overlay"><b data-i18n="case5.10.b">Wiring Diagram CCTV</b><span data-i18n="case5.10.s">Block Diagram</span></div></div>
+          <div class="case"><img src="images/cctv_support_detail.jpg" alt="Detail engineering support tiang kamera CCTV" class="zoomable"><div class="case-overlay"><b data-i18n="case5.11.b">Detail Support Tiang</b><span data-i18n="case5.11.s">CCTV</span></div></div>
+          <div class="case"><img src="images/cctv_support_3d.jpg" alt="Model 3D support tiang CCTV di Autodesk Inventor" class="zoomable"><div class="case-overlay"><b data-i18n="case5.12.b">Model 3D Support</b><span data-i18n="case5.12.s">CCTV</span></div></div>
+        </div>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job6.title">Tagging Lapangan</span></div>
+        <p class="cat-note" data-i18n="job6.note">Pembuatan taging wire marker, stiker equipment, dan cable tag untuk kebutuhan instalasi lapangan.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/taging_wire.jpg" alt="Foto lapangan tagging equipment dengan wire marker" class="zoomable"><div class="case-overlay"><b data-i18n="case5.3.b">Wire Marker</b><span data-i18n="case5.3.s">Tagging</span></div></div>
+          <div class="case"><img src="images/dwidaya_stiker_tag.jpg" alt="Stiker tag CCTV untuk equipment lapangan" class="zoomable"><div class="case-overlay"><b data-i18n="case5.6.b">Stiker Tag CCTV</b><span data-i18n="case5.6.s">Tagging</span></div></div>
+          <div class="case"><img src="images/dwidaya_wire_tube.jpg" alt="Wire tube dan marker kabel" class="zoomable"><div class="case-overlay"><b data-i18n="case5.7.b">Wire Tube &amp; Marker</b><span data-i18n="case5.7.s">Tagging</span></div></div>
+          <div class="case"><img src="images/dwidaya_cable_tag.jpg" alt="Cable tag instalasi conduit lapangan" class="zoomable"><div class="case-overlay"><b data-i18n="case5.8.b">Cable Tag Instalasi</b><span data-i18n="case5.8.s">Tagging</span></div></div>
+        </div>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job10.title">Fabrikasi &amp; Pulling Cable Lapangan</span></div>
+        <p class="cat-note" data-i18n="job10.note">Pengawasan fabrikasi support dan pekerjaan pulling cable langsung di lapangan.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/dwidaya_fab_harness_platform.jpg" alt="Pekerja dengan body harness di platform tangki area proses" class="zoomable"><div class="case-overlay"><b data-i18n="case5.4.b">Fabrikasi Support</b><span data-i18n="case5.4.s">On Site</span></div></div>
+          <div class="case"><img src="images/dwidaya_fab_lamp_install.jpg" alt="Instalasi lampu explosion proof pada dinding tangki" class="zoomable"><div class="case-overlay"><b data-i18n="case5.5.b">Pulling Cable</b><span data-i18n="case5.5.s">On Site</span></div></div>
+          <div class="case"><img src="images/dwidaya_fab_pipe_insulation.jpg" alt="Fabrikasi insulasi pipa dan support pompa lapangan" class="zoomable"><div class="case-overlay"><b data-i18n="case5.16.b">Fabrikasi Insulasi Pipa</b><span data-i18n="case5.16.s">On Site</span></div></div>
+          <div class="case"><img src="images/dwidaya_fab_welding_support.jpg" alt="Pengelasan support cable ladder di lapangan" class="zoomable"><div class="case-overlay"><b data-i18n="case5.17.b">Pengelasan Support</b><span data-i18n="case5.17.s">On Site</span></div></div>
+        </div>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job7.title">Survei &amp; Koordinasi Lapangan</span></div>
+        <p class="cat-note" data-i18n="job7.note">Survei lokasi serta koordinasi bersama tim lapangan terkait progres dan kesesuaian pekerjaan.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/dwidaya_briefing.jpg" alt="Briefing tim lapangan CV Dwidaya Persada" class="zoomable"><div class="case-overlay"><b data-i18n="case7.1.b">Briefing Tim Lapangan</b><span data-i18n="case7.1.s">On Site</span></div></div>
+          <div class="case"><img src="images/dwidaya_inspeksi.jpg" alt="Inspeksi area pipa bersama tim lapangan" class="zoomable"><div class="case-overlay"><b data-i18n="case7.2.b">Inspeksi Area Pipa</b><span data-i18n="case7.2.s">On Site</span></div></div>
+          <div class="case"><img src="images/dwidaya_koordinasi.jpg" alt="Koordinasi gambar kerja bersama tim lapangan" class="zoomable"><div class="case-overlay"><b data-i18n="case7.3.b">Koordinasi Gambar Kerja</b><span data-i18n="case7.3.s">On Site</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== COMPANY 3 ===== -->
+    <div class="company-block reveal">
+      <div class="company-head">
+        <span class="company-num">03</span>
+        <span class="company-name" data-i18n="company3.name">Freelance</span>
+        <span class="company-role" data-i18n="company3.role">Drafter 3D Furniture</span>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job4.title">Desain Furniture 3D</span></div>
+        <p class="cat-note" data-i18n="job4.note">Perencanaan console table dan tempat tidur menggunakan Autodesk Inventor, hingga hasil realisasi produksi.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/furniture_inventor.jpg" alt="Model assembly console table" class="zoomable"><div class="case-overlay"><b data-i18n="case4.1.b">Assembly 3D</b><span data-i18n="case4.1.s">Console Table</span></div></div>
+          <div class="case"><img src="images/furniture_drawing.jpg" alt="Gambar teknik console table" class="zoomable"><div class="case-overlay"><b data-i18n="case4.2.b">Gambar Teknik</b><span data-i18n="case4.2.s">Console Table</span></div></div>
+          <div class="case"><img src="images/furniture_bed.jpg" alt="Gambar rencana tempat tidur" class="zoomable"><div class="case-overlay"><b data-i18n="case4.3.b">Gambar Rencana</b><span data-i18n="case4.3.s">Tempat Tidur</span></div></div>
+          <div class="case"><img src="images/furniture_result.jpg" alt="Hasil realisasi kursi kayu" class="zoomable"><div class="case-overlay"><b data-i18n="case4.4.b">Hasil Realisasi</b><span data-i18n="case4.4.s">Kursi Kayu</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== COMPANY 4 ===== -->
+    <div class="company-block reveal">
+      <div class="company-head">
+        <img src="images/logo_abu.png" alt="Logo CV Aneka Berkah Ukur" class="company-logo zoomable">
+        <span class="company-num">04</span>
+        <span class="company-name" data-i18n="company2.name">CV Aneka Berkah Ukur</span>
+        <span class="company-role" data-i18n="company2.role">Civil Drafter</span>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job3.title">Pemetaan &amp; Topografi Lahan</span></div>
+        <p class="cat-note" data-i18n="job3.note">Survei topografi PLTU Suge, Belitung, serta perhitungan volume dan kontur tanah.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/topo_totalstation.jpg" alt="Survei topografi menggunakan total station" class="zoomable"><div class="case-overlay"><b data-i18n="case3.1.b">Survei Total Station</b><span data-i18n="case3.1.s">PLTU Suge</span></div></div>
+          <div class="case"><img src="images/topo_cad.jpg" alt="Gambar CAD situasi lahan PLTU Suge" class="zoomable"><div class="case-overlay"><b data-i18n="case3.2.b">Situasi Lahan</b><span data-i18n="case3.2.s">PLTU Suge</span></div></div>
+          <div class="case"><img src="images/topo_3d.jpg" alt="Model 3D kontur tanah" class="zoomable"><div class="case-overlay"><b data-i18n="case3.3.b">Model Kontur 3D</b><span data-i18n="case3.3.s">PLTU Suge</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== COMPANY 5 ===== -->
+    <div class="company-block reveal">
+      <div class="company-head">
+        <img src="images/logo_panorama.png" alt="Logo CV Panorama Konsultan" class="company-logo zoomable">
+        <span class="company-num">05</span>
+        <span class="company-name" data-i18n="company1.name">CV Panorama Konsultan</span>
+        <span class="company-role" data-i18n="company1.role">Architectural Drafter (Magang)</span>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job1.title">Perencanaan Rumah 2 Lantai Minimalis</span></div>
+        <p class="cat-note" data-i18n="job1.note">Perencanaan rumah tinggal 2 lantai minimalis di Sidoarjo, bertema modern minimalis.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/rumah_denah1.jpg" alt="Denah lantai 1 rumah 2 lantai minimalis" class="zoomable"><div class="case-overlay"><b data-i18n="case1.1.b">Denah Lantai 1</b><span data-i18n="case1.1.s">Rumah 2 Lantai</span></div></div>
+          <div class="case"><img src="images/rumah_denah2.jpg" alt="Denah lantai 2 rumah 2 lantai minimalis" class="zoomable"><div class="case-overlay"><b data-i18n="case1.2.b">Denah Lantai 2</b><span data-i18n="case1.2.s">Rumah 2 Lantai</span></div></div>
+          <div class="case"><img src="images/rumah_3dpotongan.jpg" alt="Render 3D potongan rumah 2 lantai minimalis" class="zoomable"><div class="case-overlay"><b data-i18n="case1.3.b">3D Potongan</b><span data-i18n="case1.3.s">Rumah 2 Lantai</span></div></div>
+        </div>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="jobcoffee.title">Perencanaan Coffee Outdoor "D'MAM Coffee"</span></div>
+        <p class="cat-note" data-i18n="jobcoffee.note">Desain Coffee &amp; Resto outdoor bertema industrial minimalis dengan nuansa outdoor dan area parkir luas.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/coffee_isometric.jpg" alt="Render 3D isometrik D'MAM Coffee outdoor" class="zoomable"><div class="case-overlay"><b data-i18n="casec.1.b">3D Isometrik</b><span data-i18n="casec.1.s">D'MAM Coffee</span></div></div>
+          <div class="case"><img src="images/coffee_layout.jpg" alt="Layout outdoor D'MAM Coffee" class="zoomable"><div class="case-overlay"><b data-i18n="casec.2.b">Layout Outdoor</b><span data-i18n="casec.2.s">D'MAM Coffee</span></div></div>
+          <div class="case"><img src="images/coffee_exterior.jpg" alt="Render eksterior D'MAM Coffee siang hari" class="zoomable"><div class="case-overlay"><b data-i18n="casec.3.b">Render Eksterior</b><span data-i18n="casec.3.s">D'MAM Coffee</span></div></div>
+        </div>
+      </div>
+
+      <div class="cat-block">
+        <div class="cat-head"><span class="cat-index">•</span><span class="cat-title" data-i18n="job2.title">Survei Bangunan &amp; Perizinan IMB</span></div>
+        <p class="cat-note" data-i18n="job2.note">Survei lahan RS. Fatma Medika (Sembayat) dan Sekolah PPNU Tratee, Gresik, untuk keperluan pengurusan IMB.</p>
+        <div class="case-grid">
+          <div class="case"><img src="images/survey_rsfatma_drawing.jpg" alt="Gambar tampak depan RS Fatma Medika" class="zoomable"><div class="case-overlay"><b data-i18n="case2.1.b">Tampak Depan</b><span data-i18n="case2.1.s">RS. Fatma Medika</span></div></div>
+          <div class="case"><img src="images/survey_ppnu_drawing.jpg" alt="Gambar tampak depan PPNU Tratee" class="zoomable"><div class="case-overlay"><b data-i18n="case2.2.b">Tampak Depan</b><span data-i18n="case2.2.s">PPNU Tratee</span></div></div>
+          <div class="case"><img src="images/survey_photo1.jpg" alt="Dokumentasi survei lapangan" class="zoomable"><div class="case-overlay"><b data-i18n="case2.3.b">Survei Lapangan</b><span data-i18n="case2.3.s">PPNU Tratee</span></div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2026 Mohammad Badrut Tamam</span>
+    <span class="footer-scale">SCALE NTS &middot; REV 03 &middot; GRESIK, ID</span>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/mohammadbadrut-tamam" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5zM3 9h4v12H3zM9 9h3.8v1.64h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/mbadruttamam_/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.16-.46-.35-1.26-.4-2.43C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43a4.9 4.9 0 0 1 1.15-1.77A4.9 4.9 0 0 1 5.59 1.8c.46-.16 1.26-.35 2.43-.4C9.29 1.34 9.67 1.33 12 1.33zm0 1.98c-3.15 0-3.5.01-4.73.07-.96.04-1.48.2-1.82.34-.46.18-.79.4-1.13.74-.34.34-.56.67-.74 1.13-.14.34-.3.86-.34 1.82-.06 1.23-.07 1.58-.07 4.73s.01 3.5.07 4.73c.04.96.2 1.48.34 1.82.18.46.4.79.74 1.13.34.34.67.56 1.13.74.34.14.86.3 1.82.34 1.23.06 1.58.07 4.73.07s3.5-.01 4.73-.07c.96-.04 1.48-.2 1.82-.34.46-.18.79-.4 1.13-.74.34-.34.56-.67.74-1.13.14-.34.3-.86.34-1.82.06-1.23.07-1.58.07-4.73s-.01-3.5-.07-4.73c-.04-.96-.2-1.48-.34-1.82a3 3 0 0 0-.74-1.13 3 3 0 0 0-1.13-.74c-.34-.14-.86-.3-1.82-.34-1.23-.06-1.58-.07-4.73-.07zm0 3.37a4.45 4.45 0 1 1 0 8.9 4.45 4.45 0 0 1 0-8.9zm0 1.98a2.47 2.47 0 1 0 0 4.94 2.47 2.47 0 0 0 0-4.94zm4.63-2.2a1.04 1.04 0 1 1 0 2.08 1.04 1.04 0 0 1 0-2.08z"/></svg>
+      </a>
+      <a href="mailto:ibadtamam08@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5zm2.2.5 7.8 5.6L19.8 6zM20 8.1l-7.4 5.3a1 1 0 0 1-1.16 0L4 8.1V18h16z"/></svg>
+      </a>
+      <a href="https://wa.me/6281283809011" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.15-1.7-.85-2-.94-.27-.1-.46-.15-.66.15-.2.3-.75.94-.92 1.13-.17.2-.34.22-.63.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.65-2.04-.17-.3-.02-.46.13-.6.13-.13.3-.34.44-.5.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.66-1.6-.9-2.18-.24-.58-.48-.5-.66-.5-.17-.01-.37-.01-.56-.01-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.7-.7 1.94-1.37.24-.68.24-1.26.17-1.38-.07-.12-.26-.2-.56-.35z"/><path d="M12 2C6.48 2 2 6.48 2 12c0 1.9.53 3.68 1.44 5.2L2 22l4.94-1.42A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.06c-1.7 0-3.29-.47-4.65-1.28l-.33-.2-3.13.9.89-3.05-.22-.34A8.05 8.05 0 0 1 3.94 12c0-4.45 3.61-8.06 8.06-8.06S20.06 7.55 20.06 12 16.45 20.06 12 20.06z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n-data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
